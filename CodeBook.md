@@ -31,3 +31,9 @@ Row names to be used for msXset
 Variable to hold the second tidy data set
 
 
+##### tidyset1.txt - 
+Export of the first required data set as described by the project details
+
+
+##### tidyset2.txt - 
+Export of the second required data set as described by the project details
