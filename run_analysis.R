@@ -1,5 +1,6 @@
 
-setwd("C:/Users/chris/OneDrive/Class Work/Data Science Specialization/Module 3 - Getting and Cleaning Data/Week 4/Analysis Files")
+#Optional Line: use to set the working directory of the data analysis locations
+#setwd("ENTER FILE LOCATION")
 
 #Read in the training and test sets
 Xtest <- read.table("X_test.txt")
@@ -71,9 +72,9 @@ colnames(meanSet) <- colnames(msXset)
 
 
 
-
-
-
+#Export both data sets to a text file
+write.table(meanSet, file = "tidyset2.txt", row.names = FALSE)
+write.table(msXset, file = "tidyset1.txt", row.names = FALSE)
 
 
 
