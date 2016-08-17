@@ -30,5 +30,6 @@ There is a single script that does all of the uploading and processing of the da
 10. Label the rows and columns
 
 11. Export the two tidy data sets
-
+    a. tidyset1.txt is the first cleaned data set required by the project
+    b. tidyset2.txt is the second cleaned data set required by the project
 
